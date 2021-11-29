@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClientList Component matches the snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+      style="max-width: 600px; margin: 0px auto; padding: 20px 5px;"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-0 css-1e5yrfe-MuiGrid-root"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-1y76otw-MuiTypography-root"
+        >
+          Client list:
+           
+        </p>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 css-172zb05-MuiGrid-root"
+      >
+        <div
+          class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorPrimary MuiChip-filledPrimary css-tpwmjq-MuiChip-root"
+          data-testid="client-list-length"
+        >
+          <span
+            class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+          >
+            1
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-3 css-azxuwk-MuiGrid-root"
+      >
+        <a
+          href="/add"
+          style="text-decoration: none;"
+        >
+          <button
+            class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-sghohy-MuiButtonBase-root-MuiButton-root"
+            data-testid="client-list-button-add-client"
+            tabindex="0"
+            type="button"
+          >
+            Add Client
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </a>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 css-1j3u5ub-MuiGrid-root"
+      >
+        <div
+          class="MuiFormControl-root MuiTextField-root css-q43owp-MuiFormControl-root-MuiTextField-root"
+          data-testid="client-list-textfield-search"
+        >
+          <label
+            class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+            data-shrink="false"
+          >
+            Search Clients...
+          </label>
+          <div
+            class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+              type="text"
+              value=""
+            />
+            <fieldset
+              aria-hidden="true"
+              class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+            >
+              <legend
+                class="css-173wfxe"
+              >
+                <span>
+                  Search Clients...
+                </span>
+              </legend>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiBox-root css-0"
+        data-testid="client-list-render-client-list"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          data-testid="client-card"
+          style="max-width: 600px; margin: 0px auto 20px auto; padding: 20px 5px;"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <a
+              data-testid="client-card-link"
+              href="/client/527.2950507590961"
+              style="text-decoration: none;"
+            >
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-2s90m6-MuiAvatar-root"
+                  data-testid="client-card-avatar"
+                >
+                  C
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-wdtwov-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+                    data-testid="client-card-name"
+                  >
+                    ClientName
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-wdtwov-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+                    data-testid="client-card-email"
+                  >
+                    Email: 
+                    client@example.com
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1em9ut6-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-2avy51-MuiTypography-root"
+                    data-testid="client-card-company-fields"
+                  >
+                    Company Fields
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-wdtwov-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+                    data-testid="client-card-company-name"
+                  >
+                    Company Name: 
+                    ABC
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-wdtwov-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+                    data-testid="client-card-phone"
+                  >
+                    Phone: 
+                    0123456789
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-wdtwov-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+                    data-testid="client-card-street-address"
+                  >
+                    Street: 
+                    20 Courtney Road
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-wdtwov-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+                    data-testid="client-card-postcode"
+                  >
+                    Postcode: 
+                    RM164TY
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-wdtwov-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+                    data-testid="client-card-city"
+                  >
+                    City: 
+                    City
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-wdtwov-MuiGrid-root"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom css-16m3jxf-MuiTypography-root"
+                    data-testid="client-card-city"
+                  >
+                    Date: 
+                    Invalid Date
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div
+            class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-wdtwov-MuiGrid-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+                data-testid="client-card-button-delete"
+                tabindex="0"
+                type="button"
+              >
+                Delete
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
