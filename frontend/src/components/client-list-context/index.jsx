@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState, useEffect, createContext } from "react";
 import api from "../../api";
 /**
@@ -16,7 +17,7 @@ export const ClientListContext = (props) => {
   const [clients, setClients] = useState([]);
   const [search, setSearch] = useState("");
   const [searchResult, setSearchResult] = useState([]);
-
+  const [editClient, setEditClient] = useState([]);
   // AddClientHandler and post clients
   const addClientHandler = async (client) => {
     const request = {
@@ -46,6 +47,23 @@ export const ClientListContext = (props) => {
     await api.delete(`/clients/${id}`);
     setClients(clients.filter((client) => client.id !== id));
   };
+
+  //Find Client ID
+  const editClientHandler = (id) => {
+    setEditClient(clients.find((client) => client.id === id));
+  };
+
+  //Update Client Handler
+  const updateClientHandler = async (client) => {
+    console.log(client);
+    const response = await api.put(`/clients/${client.id}`, client);
+    const { id } = response.data;
+    setClients(
+      clients.map((client) => {
+        return client.id === id ? { ...response.data } : client;
+      })
+    );
+  };
   // Handling search through object value
   const searchHandler = (search) => {
     setSearch(search);
@@ -69,12 +87,15 @@ export const ClientListContext = (props) => {
         value={{
           clients,
           search,
+          editClient,
           searchResult,
           searchHandler,
           setClients,
           addClientHandler,
           retrieveClients,
           removeClientHandler,
+          editClientHandler,
+          updateClientHandler,
         }}
       >
         {props.children}

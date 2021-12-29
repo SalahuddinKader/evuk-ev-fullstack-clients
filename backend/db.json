@@ -1,17 +1,6 @@
 {
   "clients": [
     {
-      "id": 484.24217937442893,
-      "name": "Robert Dixon",
-      "email": "robert@gmail.com",
-      "companyName": "RD",
-      "streetAddress": "Ordnance Road",
-      "postCode": "E2 1BR",
-      "city": "London",
-      "phone": "07563542645",
-      "date": "2021-11-29T23:53:54.000Z"
-    },
-    {
       "id": 603.6690862032322,
       "name": "Jakson",
       "email": "jakson@gmail.com",
@@ -20,7 +9,7 @@
       "postCode": "Cm2 5EC",
       "city": "Essex",
       "phone": "07835243756",
-      "date": "2021-11-25T23:55:18.000Z"
+      "date": null
     }
   ]
 }

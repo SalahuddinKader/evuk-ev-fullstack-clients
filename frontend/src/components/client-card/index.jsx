@@ -18,7 +18,7 @@ import {
  */
 
 const ClientCard = ({ client }) => {
-  const { removeClientHandler } = useContext(ClientContext);
+  const { removeClientHandler, editClientHandler } = useContext(ClientContext);
   const {
     id,
     name,
@@ -154,6 +154,15 @@ const ClientCard = ({ client }) => {
           >
             Delete
           </Button>
+          <Link to="/edit" style={{ textDecoration: "none" }}>
+            <Button
+              data-testid="client-card-button-delete"
+              size="medium"
+              onClick={() => editClientHandler(id)}
+            >
+              Edit
+            </Button>
+          </Link>
         </Grid>
       </CardActions>
     </Card>
